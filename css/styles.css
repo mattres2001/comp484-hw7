@@ -1,26 +1,49 @@
 /* Color Palette
-# - color 1
-# - color 2
-# - color 3
-# - color 4
+San Marino
+#436CA1
+Bison Hide
+#CAB8AD
+Shark
+#1E2128
+Polo Blue
+#8AAED3
 */
 
 /* Global styles 
 ------------------------------------*/
 body {
-    /*background: lightblue;*/
+    background: #1E2128;
+}
+
+img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 5px solid #8AAED3;
 }
 
 
 /* Header & Footer 
 ------------------------------------*/
+header {
+    background: #8AAED3;
+}
 
+footer {
+    background: #8AAED3;
+}
 
 
 /* Work Experience
 ------------------------------------*/
-
+.work-experience-wrap {
+    background: #436CA1;
+}
 
 
 /* Education
 ------------------------------------*/
+.education-wrap {
+    background: #CAB8AD
+}
