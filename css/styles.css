@@ -13,6 +13,9 @@ Polo Blue
 ------------------------------------*/
 body {
     background: #1E2128;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+    font-style: normal;
 }
 
 img {
@@ -23,15 +26,38 @@ img {
     border: 5px solid #8AAED3;
 }
 
+h1 {  
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h2 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h3 {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 
 /* Header & Footer 
 ------------------------------------*/
 header {
     background: #8AAED3;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 footer {
     background: #8AAED3;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 
@@ -39,11 +65,17 @@ footer {
 ------------------------------------*/
 .work-experience-wrap {
     background: #436CA1;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 
 /* Education
 ------------------------------------*/
 .education-wrap {
-    background: #CAB8AD
+    background: #CAB8AD;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
