@@ -11,37 +11,48 @@ Polo Blue
 
 /* Global styles 
 ------------------------------------*/
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
 body {
     background: #1E2128;
     font-family: "Lato", sans-serif;
     font-weight: 100;
     font-style: normal;
-}
-
-img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border: 5px solid #8AAED3;
+    margin: 0;
 }
 
 h1 {  
     font-family: "Ubuntu", sans-serif;
     font-weight: 700;
     font-style: normal;
+    margin: 0;
 }
 
 h2 {
     font-family: "Ubuntu", sans-serif;
     font-weight: 500;
     font-style: normal;
+    margin: 0;
 }
 
 h3 {
     font-family: "Ubuntu", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+.content-wrap {
+    width: 950px;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 5px;
+    overflow: hidden;
 }
 
 /* Header & Footer 
@@ -58,8 +69,32 @@ footer {
     font-family: "Lato", sans-serif;
     font-weight: 300;
     font-style: normal;
+    text-align: center;
 }
 
+.contact-info a {
+    padding: 10px;
+    display: inline-block;
+}
+
+.profile-image {
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #8AAED3;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
+}
 
 /* Work Experience
 ------------------------------------*/
